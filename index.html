@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yoda Speaks | Mark 7</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navigation container">
+      <span class="nav-brand"> I'm Prabhjot </span>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="https://prabhjot-neog-portfolio.netlify.app/">Portfolio</a>
+        </li>
+        <li class="list-item-inline"><a class="link" href="https://github.com/PsKalsi19/Yodish">View Code</a></li>
+      </ul>
+    </nav>
+    <header class="hero">
+     <h1 class="hero-heading hero-heading-highlight">Yodish !</h1>
+     <img class="hero-img" src="Baby Yoda.svg" alt="yoda-image-1">
+     <h3 class="hero-subheading">Translate your sentences or word into Yoda Language.</h3>
+
+    </header>
+    <div class="container container-center">
+      <section class="section">
+        <textarea
+          placeholder="Please enter the text here"
+          name="text-area"
+          id="text-area"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <div class="section-error"></div>
+      </section>
+        <section class="section button-wrapper">
+            <button id="translate" type="button" class="btn btn-primary">Translate now</button>
+            <button id="clear" type="button" class="btn btn-secondary">Clear</button>
+            <img class="background-img" src="Baby Yoda.svg" alt="yoda-image-1">
+        </section>
+      <section class="section section-output">
+        <span>Your result will be shown below 👇</span>
+        <div id="output-div">
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <p class="footer-header">We can connect on:</p>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline"><a class="link" href="https://github.com/PsKalsi19">Github</a></li>
+        <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/prabhjot-kalsi-8390a6240/">Linkedin</a></li>
+        <li class="list-item-inline"><a class="link" href="https://twitter.com/kalamaurcode">Twitter</a></li>
+      </ul>
+    </footer>
+    <script src="/script.js"></script>
+  </body>
+</html>
