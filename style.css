@@ -189,4 +189,7 @@ div#output-div {
     height: 7rem;
     position: absolute;
   }
+  .background-img{
+    display: none;
+  }
 }
