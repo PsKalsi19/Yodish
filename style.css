@@ -3,6 +3,7 @@
 :root {
   --body-color: #dcfce7;
   --primary-color: #15803d;
+  --secondary-color: #f0fdf4;
   --dark-gray: #9ca3af;
   --light-gray: #f3f4f6;
   --white: #fafafa;
@@ -66,13 +67,18 @@ hr {
   color: var(--white);
 }
 
+.btn-secondary {
+  background-color: var(--white);
+  color: var(--primary-color);
+}
+
 .btn-primary:hover {
   cursor: pointer;
 }
 .btn-secondary:hover {
   cursor: pointer;
   background-color: var(--primary-color);
-  color: var(--white);
+  color: var(--secondary-color);
 }
 /* for sections */
 .section {
@@ -132,8 +138,8 @@ div#output-div {
 /* For nav */
 .navigation {
   background-color: var(--primary-color);
-  color: var(--white);
-  padding: 1rem;
+  color: var(--secondary-color);
+  padding: 1rem 4rem;
 }
 
 .navigation > .nav-brand {
@@ -141,7 +147,7 @@ div#output-div {
 }
 
 .navigation .link {
-  color: var(--white);
+  color: var(--secondary-color);
 }
 
 .nav-pills {
@@ -178,6 +184,7 @@ div#output-div {
 .footer .footer-header {
   font-size: large;
   font-weight: bold;
+  color: var(--secondary-color);
 }
 
 @media only screen and (max-width: 600px) {
@@ -189,7 +196,18 @@ div#output-div {
     height: 7rem;
     position: absolute;
   }
-  .background-img{
+  .background-img {
     display: none;
   }
+}
+
+/* for icons */
+.lni {
+  font-size: larger;
+  color: var(--icon-color);
+}
+
+.footer .lni {
+  font-size: x-large;
+  color: var(--icon-color);
 }
